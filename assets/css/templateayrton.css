@@ -1,0 +1,639 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    min-width: 320px;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: repeat;
+    background-image: url(../Imagens/bandeira\ quadriculada.jpg)
+}
+nav ul li a{
+    color: goldenrod !important;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    margin: 50px;
+    background-color: rgba(0, 0, 0, 0.712);
+}
+.divmenu{
+    flex-direction: row;
+    text-decoration: none;
+    list-style: none;
+}
+.menu{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul,
+nav li{
+  list-style: none;
+  margin: 10;
+  padding: 10;  
+}
+li a{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+    
+}
+.nome{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.titulos_intermediarios{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 40px;
+    color: white;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.container_principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    margin: 50px;
+    background-color: rgba(0, 0, 0, 0.712);
+}
+.container_principal_historia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    margin: 50px;
+    background-color: rgba(0, 0, 0, 0.712);
+}
+.container_principal_F1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    margin: 50px;
+    background-color: rgba(0, 0, 0, 0.712);
+}
+.container_principal_conquistas{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;    
+    width: auto;
+    height: auto;
+    padding-left: 40px;
+    padding: 20px;
+    margin: 50px;
+    background-color: rgba(0, 0, 0, 0.712);
+}
+.imagemprincipal img{
+    border: 5px solid goldenrod;
+    
+}
+#imagemprincipal_conquistas{
+    
+    margin-top: 50px;
+    border: 5px solid goldenrod;
+}
+.imagemprincipal_historia{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 5px solid goldenrod;
+}
+.imagemprincipal_F1{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   margin-left: 5px;
+   margin-right: 5px;
+   border: 5px solid goldenrod;
+}
+.img_infancia{
+    display: flex;
+    justify-content: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.img_F1{
+   display: flex;
+   justify-content: center;
+   margin-left: 5px;
+   margin-right: 5px;
+}
+.descr_imagem_principal{
+    color: white;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.texto_imagem_principal{
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+}
+.texto_imagem_principal_historia{
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+}
+span{
+    color: goldenrod;
+    font-weight: bold;
+}
+.video{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    
+}
+#conquistas ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: flex-start;
+    font-size: 30px;
+    list-style: disc;
+    color: white;
+
+}
+.wikipedia{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    color: white;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+div a{
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 8px;
+}
+.rodapé{
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+    color: white;
+    background-color: black
+    
+}
+
+.rodape_int{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.text_rodapé{
+    display: flex;
+    padding-top: 20px;   
+    padding-right: 10px;
+    color: white;
+}
+.logo_rodapé{
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (min-width:1040px) and (max-width:1125px) {
+    .imagemprincipal img{
+        width: 750px;
+    }
+}
+
+@media only screen and (min-width:950px) and (max-width:1040px) {
+    .imagemprincipal img {
+        width: 750px;
+    }
+    .texto_imagem_principal{
+        width: 800px;
+    }
+    .img_F1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .img_F1 img{
+        width: 600px;
+    }
+    .imagemprincipal_F1{
+       margin: 10px;
+    }
+}
+
+@media only screen and (min-width:732px) and (max-width:950px){
+    .texto_imagem_principal {
+        width: 600px;
+        padding: none;
+        padding-top: 20px;
+    }
+    .img_infancia{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .imagemprincipal_historia{
+        margin: 10px;
+    }
+
+    .descr_imagem_principal {
+        font-size: 25px;
+    }
+
+    .imagemprincipal img {
+        width: 600px;
+    }
+    #imagemprincipal_conquistas{
+        width: 600px;
+    }
+    .img_F1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img_F1 img {
+        width: 600px;
+    }
+
+    .imagemprincipal_F1 {
+        margin: 10px;
+    }
+
+    video {
+        width: 600px;
+        height: 400px;
+    }
+
+    .text_rodapé {
+        font-size: 15px;
+    }
+
+    footer img {
+        width: 150px;
+    }
+    .wikipedia {
+        font-size: 15px;
+    }
+}
+    
+@media only screen and (min-width:610px) and (max-width:732px){
+    .container{
+        margin: 30px;
+    }
+    .container_principal{
+        margin: 30px;
+    }
+    .container_principal_historia{
+        margin: 30px;
+    }
+    .container_principal_F1{
+        margin: 30px;
+    }
+    .container_principal_conquistas{
+        margin: 30px;
+    }
+    .imagemprincipal img {
+        width: 500px;
+    }
+    .descr_imagem_principal {
+        font-size: 20px;
+    }
+    .texto_imagem_principal {
+        width: 500px;
+        padding: none;
+        padding-top: 20px;
+    }
+    .img_infancia {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .imagemprincipal_historia {
+        margin: 10px;
+    }
+    .img_F1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img_F1 img {
+        width: 500px;
+    }
+
+    .imagemprincipal_F1 {
+        margin: 10px;
+    }
+    #imagemprincipal_conquistas {
+        width: 500px;
+    }
+    li{
+        font-size: 25px;
+    }
+    video {
+        width: 500px;
+        height: 375px;
+    }
+    .wikipedia {
+        font-size: 15px;
+    }
+} 
+
+@media only screen and (min-width:535px) and (max-width:610px){
+    .container{
+        margin: 25px;
+    }
+    .container_principal {
+        margin: 25px;
+    }
+    .container_principal_historia{
+        margin: 25px;
+    }
+    .container_principal_F1{
+       margin: 25px;
+    }
+    .container_principal_conquistas{
+        margin: 25px;
+    }
+    .imagemprincipal img {
+        width: 400px;
+    }
+    .titulos_intermediarios{
+        font-size: 30px;
+    }
+    .descr_imagem_principal{
+        font-size: 17px;
+    }
+    .texto_imagem_principal {
+        width: 400px;
+        padding: none;
+        padding-top: 20px;
+    }
+    .img_infancia {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .imagemprincipal_historia {
+        margin: 10px;
+    }
+    .img_F1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img_F1 img {
+        width: 400px;
+    }
+
+    .imagemprincipal_F1 {
+        margin: 10px;
+    }
+    #imagemprincipal_conquistas {
+        width: 400px;
+    }
+
+    li {
+        font-size: 20px;
+    }
+    video{
+        width: 400px;
+        height: 300px;
+    }
+    .wikipedia{
+        font-size: 15px;
+    }
+}
+@media only screen and (min-width:410px) and (max-width:535px){
+    .container{
+        margin: 20px;
+    }
+    .container_principal {
+        margin: 20px;
+    }
+    .container_principal_historia{
+        margin: 20px;
+    }
+    .container_principal_F1{
+        margin: 20px;
+    }
+    .container_principal_conquistas{
+        margin: 20px;
+    }
+    .titulos_intermediarios{
+        font-size: 20px;
+    }
+    .imagemprincipal img{
+        width: 350px;
+    }
+    .descr_imagem_principal{
+        font-size: 12px;
+    }
+    .texto_imagem_principal{
+        width: 350px;
+        font-size: 12px;
+        padding: none;
+        padding-top: 20px;
+    }
+    .img_infancia {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+
+    }
+    .img_infancia img{
+        width: 350px;
+    }
+
+    .imagemprincipal_historia {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+    }
+    .img_F1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img_F1 img {
+        width: 350px;
+    }
+    .texto_imagem_principal_historia{
+        font-size: 15px;
+    }
+
+    .imagemprincipal_F1 {
+        margin: 10px;
+    }
+    #imagemprincipal_conquistas {
+        width: 350px;
+    }
+
+    li {
+        font-size: 15px;
+    }
+    video{
+        width: 350px;
+        height: 260px;
+    }
+    .wikipedia{
+        font-size: 10px;
+    }
+    .text_rodapé{
+        font-size: 10px;
+    }
+    footer img{
+        width: 125px;
+    }
+}
+@media only screen and (min-width:320px) and (max-width:410px){
+    .container{
+        margin: 10px;
+    }
+    .container_principal {
+        margin: 10px;
+    }
+    .container_principal_historia {
+        margin: 10px;
+    }
+    .container_principal_F1{
+        margin: 10px;
+    }
+    .container_principal_conquistas{
+        margin: 10px;
+    }
+    .titulos_intermediarios {
+        font-size: 20px;
+    }
+
+    .imagemprincipal img {
+        width: 250px;
+    }
+
+    .descr_imagem_principal {
+        font-size: 12px;
+    }
+
+    .texto_imagem_principal {
+        width: 250px;
+        font-size: 12px;
+        padding: none;
+        padding-top: 20px;
+    }
+    .texto_imagem_principal_historia{
+        font-size: 12px;
+        padding: none;
+        padding-top: 20px;
+    }
+    .img_infancia {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    .img_infancia img {
+        width: 250px;
+    }
+
+    .imagemprincipal_historia {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+    }
+    .img_F1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img_F1 img {
+        width: 250px;
+    }
+
+    .texto_imagem_principal_historia {
+        font-size: 12px;
+    }
+
+    .imagemprincipal_F1 {
+        margin: 10px;
+    }
+    #imagemprincipal_conquistas {
+        width: 250px;
+    }
+
+    li {
+        font-size: 12px;
+    }
+
+    video {
+        width: 250px;
+        height: 185px;
+    }
+
+    .wikipedia {
+        font-size: 10px;
+    }
+
+    .text_rodapé {
+        font-size: 10px;
+    }
+
+    footer img {
+        width: 125px;
+    }
+}  
